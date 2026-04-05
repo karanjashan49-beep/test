@@ -72,6 +72,14 @@ RUN dnf install -y curl
 - Ubuntu/Debian → `apt`
 - RHEL/CentOS/Fedora → `dnf` or `yum`
 
+## 4A. Comparison table
+
+| Distribution | Package manager | Example install command |
+| --- | --- | --- |
+| Alpine | `apk` | `apk add --no-cache curl` |
+| Ubuntu/Debian | `apt` | `apt update && apt install -y curl` |
+| RHEL/CentOS/Fedora | `dnf` / `yum` | `dnf install -y curl` |
+
 ## 5. Important idea
 
 The package manager depends on the Linux distribution used in the base image.
