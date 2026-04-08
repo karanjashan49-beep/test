@@ -1,4 +1,3 @@
-cat <<EQF> Containerfile 
 # Containerfile to build an Apache web server image for a website template.
 
 FROM amazonlinux:latest
@@ -13,4 +12,3 @@ RUN unzip /tmp/hielo.zip -d /var/www/html && rm -f /tmp/hielo.zip
 EXPOSE 80
 
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-EQF
