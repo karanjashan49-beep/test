@@ -1,0 +1,12 @@
+# Steps to make a container using Jenkins
+
+1. Install Jenkins and required plugins.
+2. Create a new Jenkins pipeline job.
+3. Connect your source code repository to Jenkins.
+4. Add a `Dockerfile` to the project.
+5. Configure the pipeline to build the Docker image.
+6. Run `docker build` from the Jenkins pipeline.
+7. Optionally tag the image with build number or version.
+8. Push the image to a container registry like Docker Hub or GitHub Container Registry.
+9. Verify the image build and push logs in Jenkins.
+10. Use the built container image for deployment.
