@@ -6,7 +6,7 @@ This file is a simple cheat sheet for package managers commonly used in containe
 
 - Package manager: `apk`
 - Common in very small container images
-- Good when you want lightweight containers
+- Good when you want lightweight containers.
 
 Example:
 
