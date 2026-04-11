@@ -9,7 +9,7 @@ A `Containerfile` (or `Dockerfile`) defines how the image is built.
 Example:
 
 ```Dockerfile
-FROM alpine:latest
+FROM alpine:latest.
 
 RUN apk add --no-cache curl
 
