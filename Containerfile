@@ -12,3 +12,4 @@ RUN unzip /tmp/hielo.zip -d /var/www/html && rm -f /tmp/hielo.zip
 EXPOSE 84
 
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+echo "This is update"
