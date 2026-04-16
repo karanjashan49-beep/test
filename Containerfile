@@ -9,6 +9,6 @@ WORKDIR /var/www/html
 ADD https://templated.live/hielo/download/hielo.zip /tmp/hielo.zip
 RUN unzip /tmp/hielo.zip -d /var/www/html && rm -f /tmp/hielo.zip
 
-EXPOSE 84
+EXPOSE 83
 
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
